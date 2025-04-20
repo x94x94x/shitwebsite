@@ -1,0 +1,1464 @@
+<!doctype html>
+<html data-n-head-ssr lang="en" data-n-head="%7B%22lang%22:%7B%22ssr%22:%22en%22%7D%7D">
+  <head>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+    <meta data-n-head="ssr" name="viewport" content="width=device-width, initial-scale=1">
+    <meta data-n-head="ssr" data-hid="description" name="description" content="">
+    <meta data-n-head="ssr" name="format-detection" content="telephone=no">
+    <meta data-n-head="ssr" data-hid="mobile-web-app-capable" name="mobile-web-app-capable" content="yes">
+    <meta data-n-head="ssr" data-hid="apple-mobile-web-app-title" name="apple-mobile-web-app-title" content="subtick6">
+    <meta data-n-head="ssr" data-hid="og:type" name="og:type" property="og:type" content="website">
+    <meta data-n-head="ssr" data-hid="og:title" name="og:title" property="og:title" content="subtick6">
+    <meta data-n-head="ssr" data-hid="og:site_name" name="og:site_name" property="og:site_name" content="subtick6">
+    <title>subtick6.wtf / CS:GO HvH</title>
+    <link rel="canonical" href="https://subtick6.wtf" />
+
+    <style data-vue-ssr-id="76bda88a:0 1739e670:0 252f4f7d:0">
+      ._container {
+        margin: 0 auto;
+        max-width: 1366px
+      }
+
+      * {
+        border: none;
+        box-sizing: border-box;
+        letter-spacing: .4px;
+        margin: 0;
+        outline: none;
+        padding: 0
+      }
+
+      ::-webkit-scrollbar {
+        width: 6px
+      }
+
+      ::-webkit-scrollbar-track {
+        background-color: none
+      }
+
+      ::-webkit-scrollbar-thumb {
+        background: #ffae39
+      }
+
+      a {
+        -webkit-text-decoration: none;
+        text-decoration: none
+      }
+
+      ul {
+        list-style: none
+      }
+
+      body,
+      html {
+        overflow-x: hidden
+      }
+
+      body {
+        background: rgb(10,10,10);
+        font-family: "Roboto", sans-serif;
+        min-height: 100vh;
+        width: 100%
+      }
+
+      header {
+        left: 0;
+        padding: 36px 0;
+        position: absolute;
+        top: 0;
+        width: 100%;
+        z-index: 2
+      }
+
+      header.bg {
+        background: rgb(15,15,15,0);
+        background-position: 50%;
+        background-repeat: no-repeat;
+        background-size: cover
+      }
+
+      header ._container {
+        align-items: center;
+        display: flex;
+        justify-content: space-between
+      }
+
+      header .logo {
+        align-items: center;
+        color: #fff;
+        cursor: pointer;
+        display: flex;
+        font-size: 24px;
+        font-style: normal;
+        font-weight: 700;
+        line-height: 29px
+      }
+
+      header .logo img {
+        height: 45px;
+        margin-right: 19px
+      }
+
+      header .online {
+        max-width: 237px;
+        width: 100%
+      }
+
+      header .online .progress {
+        background: rgba(255, 154, 1, .2);
+        border-radius: 4px;
+        height: 4px;
+        width: 100%
+      }
+
+      header .online .progress .line {
+        background: #ff9a01;
+        border-radius: 4px;
+        box-shadow: 0 1px 6px rgba(255, 198, 1, .25);
+        height: 100%
+      }
+
+      header .online .header {
+        align-items: flex-end;
+        display: flex;
+        justify-content: space-between;
+        margin-bottom: 16px
+      }
+
+      header .online .header .text {
+        color: #fff;
+        font-size: 16px;
+        font-style: normal;
+        font-weight: 500;
+        line-height: 19px;
+        opacity: .45
+      }
+
+      header .online .header .counter {
+        color: hsla(0, 0%, 100%, .5);
+        font-size: 18px;
+        font-style: normal;
+        font-weight: 500;
+        line-height: 22px;
+        text-align: right
+      }
+
+      header .online .header .counter b {
+        color: #fff;
+        font-size: 24px;
+        font-style: normal;
+        font-weight: 700;
+        line-height: 29px
+      }
+
+      header .nav {
+        margin: 0 auto
+      }
+
+      header .nav,
+      header .nav .nav_list {
+        align-items: center;
+        display: flex;
+        justify-content: center
+      }
+
+      header .nav .nav_list li {
+        color: #fff;
+        cursor: pointer;
+        font-size: 16px;
+        font-style: normal;
+        font-weight: 500;
+        line-height: 19px;
+        margin: 0 20px;
+        opacity: .45;
+        transition: all .3s
+      }
+
+      header .nav .nav_list li.active,
+      header .nav .nav_list li:hover {
+        opacity: 1;
+        transition: all .3s
+      }
+
+      .start_section {
+        background: url(images/start_section_bg.png);
+        background-position: bottom;
+        background-repeat: no-repeat;
+        background-size: cover;
+        position: relative
+      }
+
+
+      .start_section .picture {
+        bottom: -11px;
+        height: 761px;
+        position: absolute;
+        right: -173px
+      }
+
+      .start_section ._container {
+        align-items: center;
+        display: flex;
+        min-height: 709px;
+        padding-top: 120px
+      }
+
+      .start_section ._container .content {
+        max-width: 502px
+      }
+
+      .start_section ._container .content h1 {
+        color: #fff;
+        font-size: 55px;
+        font-style: normal;
+        font-weight: 700;
+        line-height: 130%
+      }
+
+      .start_section ._container .content h3 {
+        color: hsla(0, 0%, 100%, .55);
+        font-size: 18px;
+        font-style: normal;
+        font-weight: 400;
+        letter-spacing: .02em;
+        line-height: 179.5%;
+        margin-bottom: 55px
+      }
+
+      .start_section ._container .content .actions {
+        align-items: center;
+        display: flex;
+        justify-content: space-between
+      }
+
+      .start_section ._container .content .actions .btn {
+        align-items: center;
+        background: linear-gradient(93.19deg, #0c0c0c, #030303);
+        border-radius: 3px 15px;
+        cursor: pointer;
+        display: flex;
+        height: 60px;
+        justify-content: center;
+        width: 49%
+      }
+
+      .start_section ._container .content .actions .btn,
+      .start_section ._container .content .actions .btn.no_bg {
+        color: #fff;
+        font-size: 16px;
+        font-style: normal;
+        font-weight: 700;
+        line-height: 160%;
+        text-shadow: 0 1px 1px rgba(0, 0, 0, .25)
+      }
+
+      .start_section ._container .content .actions .btn.no_bg {
+        background: none;
+        opacity: .5;
+        transition: all .3s
+      }
+
+      .start_section ._container .content .actions .btn.no_bg svg {
+        margin-left: 10px
+      }
+
+      .start_section ._container .content .actions .btn:hover {
+        box-shadow: 0 5px 10px rgba(235, 234, 233, 0.15)
+      }
+
+      .start_section ._container .content .actions .btn:hover.no_bg {
+        box-shadow: none;
+        opacity: 1;
+        transition: all .3s
+      }
+
+      .start_section ._container .content .actions .btn:hover.no_bg svg {
+        margin-left: 15px;
+        transition: margin-left .3s
+      }
+
+      .start_section ._container .content .actions .btn:hover svg {
+        margin-left: 10px;
+        transition: margin-left .3s
+      }
+
+      .start_section ._container .content .actions .btn:hover svg path {
+        fill: #fff
+      }
+
+      .start_section ._container .content .actions .btn svg {
+        margin-left: 29px;
+        transition: margin-left .3s
+      }
+
+      .start_section ._container .monitoring_list {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        left: 50%;
+        min-height: 709px;
+        padding-top: 120px;
+        position: absolute;
+        top: 0;
+        transition: left 1s
+      }
+
+      .start_section ._container .monitoring_list:hover {
+        -webkit-backdrop-filter: blur(10px);
+        backdrop-filter: blur(10px);
+        left: 2%;
+        transition: left 1s;
+        width: 100%
+      }
+
+      .start_section ._container .monitoring_list .btn_view_all {
+        background: #fff;
+        border-radius: 5px;
+        color: #000;
+        cursor: pointer;
+        font-size: 12px;
+        font-style: normal;
+        font-weight: 700;
+        line-height: 130%;
+        margin-left: 206px;
+        margin-top: 40px;
+        padding: 10px 15px;
+        text-align: center;
+        width: 150px
+      }
+
+      .start_section ._container .monitoring_list .btn_view_all.disabled {
+        display: none
+      }
+
+      .start_section ._container .monitoring_list .line {
+        align-items: center;
+        display: flex
+      }
+
+      .start_section ._container .monitoring_list .line.hide {
+        margin-top: 56px;
+        padding-left: 206px
+      }
+
+
+
+      .server_block {
+        align-items: flex-end;
+        background: url(images/server_bg.png);
+        background-position: 50%;
+        background-repeat: no-repeat;
+        background-size: cover;
+        border-radius: 20px;
+        cursor: pointer;
+        display: flex;
+        height: 169px;
+        margin-right: 149px;
+        padding-bottom: 22px;
+        padding-left: 31px;
+        position: relative;
+        transition: all .4s;
+        width: 433px
+      }
+
+      .server_block:hover {
+        transform: scale(1.1);
+        transition: all .4s
+      }
+
+      .server_block .info {
+        display: flex;
+        flex-direction: column;
+        max-width: 309px;
+        position: relative;
+        z-index: 1
+      }
+
+      .server_block .info .title {
+        color: #fff;
+        font-size: 18px;
+        font-style: normal;
+        font-weight: 700;
+        line-height: 160%;
+        margin-bottom: 6px;
+        text-shadow: 0 1px 1px rgba(0, 0, 0, .25)
+      }
+
+      .server_block .info .desc {
+        color: hsla(0, 0%, 100%, .55);
+        font-weight: 400;
+        letter-spacing: -.035em;
+        line-height: 116%
+      }
+
+      .server_block .info .desc,
+      .server_block .online {
+        font-size: 16px;
+        font-style: normal;
+        text-shadow: 0 1px 1px rgba(0, 0, 0, .25)
+      }
+
+      .server_block .online {
+        color: hsla(0, 0%, 100%, .5);
+        font-weight: 500;
+        left: 31px;
+        line-height: 160%;
+        position: absolute;
+        top: 22px;
+        z-index: 1
+      }
+
+      .server_block .online span {
+        color: #fff
+      }
+
+      .server_block.bedwars .picture {
+        bottom: 0;
+        height: 218px;
+        position: absolute;
+        right: -102px
+      }
+
+      .server_block.training .picture {
+        bottom: 0;
+        height: 174px;
+        position: absolute;
+        right: -114px
+      }
+
+      .server_block.knockbackffa .picture {
+        bottom: -19px;
+        height: 213px;
+        position: absolute;
+        right: -14px
+      }
+
+      .server_block.creative .picture {
+        bottom: -41px;
+        height: 243px;
+        position: absolute;
+        right: -49px
+      }
+
+      .server_block.fastbuilder .picture {
+        bottom: 0;
+        height: 209px;
+        position: absolute;
+        right: -68px
+      }
+
+      .server_block.skywarsffa .picture {
+        bottom: -21px;
+        height: 209px;
+        position: absolute;
+        right: -109px
+      }
+
+      .social_section {
+        margin-top: 54px;
+        overflow: hidden;
+        padding-bottom: 239px;
+        position: relative
+      }
+
+      .social_section .title_section {
+        color: #fff;
+        font-size: 22px;
+        font-style: normal;
+        font-weight: 700;
+        line-height: 130%;
+        margin-bottom: 127px;
+        text-align: center;
+        width: 100%
+      }
+
+      .social_section .parallax {
+        position: absolute
+      }
+
+      .social_section .parallax.one {
+        left: -42px;
+        position: absolute;
+        top: 0;
+        width: 340px
+      }
+
+      .social_section .parallax.two {
+        right: 48px;
+        top: -20px;
+        width: 201px
+      }
+
+      .social_section .list_social {
+        align-items: center;
+        display: flex;
+        justify-content: center;
+        margin-right: -155px;
+      }
+
+      .social_section .social_block {
+        border-radius: 20px;
+        display: flex;
+        flex-direction: column;
+        height: 273px;
+        justify-content: center;
+        margin: 0 72px;
+        padding-left: 168px;
+        position: relative;
+        width: 557px
+      }
+
+      .social_section .social_block.ds {
+        background: url(images/ds_bg.png);
+        background-position: 50%;
+        background-repeat: no-repeat;
+        background-size: cover
+      }
+
+      .social_section .social_block.ds .link {
+        background: #7289da
+      }
+
+      .social_section .social_block.ds .link:hover {
+        box-shadow: 0 4px 46px 9px rgba(114, 137, 218, .25);
+        transition: all .3s
+      }
+
+
+
+      .social_section .social_block .icon {
+        left: -114px;
+        position: absolute;
+        transition: all .3s;
+        width: 228px;
+        z-index: 2
+      }
+
+      .social_section .social_block:hover .icon {
+        transform: scale(.8);
+        transition: all .3s
+      }
+
+      .social_section .social_block .title {
+        color: #fff;
+        font-size: 31px;
+        font-style: normal;
+        font-weight: 700;
+        line-height: 160%;
+        margin-bottom: 19px;
+        text-shadow: 0 1px 1px rgba(0, 0, 0, .25)
+      }
+
+      .social_section .social_block .desc {
+        color: hsla(0, 0%, 100%, .55);
+        font-size: 18px;
+        font-style: normal;
+        font-weight: 400;
+        letter-spacing: .02em;
+        line-height: 179.5%;
+        margin-bottom: 19px
+      }
+
+      .social_section .social_block .link {
+        align-items: center;
+        border-radius: 10px;
+        color: #fff;
+        cursor: pointer;
+        display: flex;
+        font-size: 16px;
+        font-style: normal;
+        font-weight: 700;
+        height: 48px;
+        justify-content: center;
+        line-height: 130%;
+        transition: all .3s;
+        width: 121px
+      }
+
+      footer {
+        background: url(images/footer_bg.png);
+        background-position: 50%;
+        background-repeat: no-repeat;
+        background-size: cover;
+        padding: 50px 0
+      }
+
+      footer ._container {
+        align-items: flex-start;
+        display: flex
+      }
+
+      footer ._container .logo {
+        align-items: center;
+        display: flex;
+        margin-right: 129px
+      }
+
+      footer ._container .logo img {
+        margin-right: 37px;
+        width: 76px
+      }
+
+      footer ._container .logo .info {
+        display: flex;
+        flex-direction: column
+      }
+
+      footer ._container .logo .info .name {
+        color: #fff;
+        font-size: 24px;
+        font-style: normal;
+        font-weight: 700;
+        line-height: 29px;
+        margin-bottom: 3px
+      }
+
+      footer ._container .logo .info .site {
+        color: hsla(0, 0%, 100%, .65);
+        font-size: 12px;
+        font-style: normal;
+        font-weight: 400;
+        letter-spacing: .2em;
+        line-height: 14px
+      }
+
+      footer ._container .project_info {
+        display: flex;
+        flex-direction: column;
+        margin-right: 142px;
+        margin-top: 25px
+      }
+
+      footer ._container .project_info .copy {
+        color: #fff;
+        font-size: 14px;
+        font-style: normal;
+        font-weight: 500;
+        line-height: 160%;
+        margin-bottom: 31px
+      }
+
+      footer ._container .project_info .desc {
+        color: hsla(0, 0%, 100%, .65);
+        font-size: 14px;
+        font-style: normal;
+        font-weight: 500;
+        line-height: 160%
+      }
+
+      footer ._container .footer_nav {
+        display: flex;
+        flex-direction: column;
+        margin-right: 80px
+      }
+
+      footer ._container .footer_nav .name {
+        color: #fff;
+        font-size: 16px;
+        font-style: normal;
+        font-weight: 500;
+        line-height: 19px;
+        margin-bottom: 25px
+      }
+
+      footer ._container .footer_nav a {
+        color: #787788;
+        font-size: 14px;
+        font-style: normal;
+        font-weight: 500;
+        line-height: 17px;
+        margin-bottom: 13px;
+        transition: color .4s
+      }
+
+      footer ._container .footer_nav a:hover {
+        color: #fff;
+        transition: color .4s
+      }
+
+      footer ._container .footer_nav a:last-child {
+        margin-bottom: 0
+      }
+
+      .modal_overlay {
+        background: rgba(0, 0, 0, .75);
+        height: 100%;
+        left: 0;
+        overflow-x: hidden;
+        overflow-y: auto;
+        position: fixed;
+        top: 0;
+        width: 100%;
+        z-index: 1000;
+        z-index: 5
+      }
+
+      .modal_overlay .modal_container {
+        margin: 1.75rem auto;
+        max-width: 100%
+      }
+
+      .modal_overlay .modal_container .modal {
+        align-items: center;
+        background: #fff;
+        border-radius: 18px;
+        box-shadow: 0 15px 65px rgba(197, 202, 224, .25);
+        display: flex;
+        flex-direction: column;
+        min-height: 600px;
+        padding: 28px 40px;
+        position: relative;
+        width: 100%
+      }
+
+      .modal_overlay .modal_container .modal.product {
+        background: rgb(15,15,15,0);
+        background-position: 50%;
+        background-repeat: no-repeat;
+        background-size: cover;
+        border-radius: 23px;
+        box-shadow: none;
+        height: 652px;
+        margin: 90px auto 0;
+        max-width: 520px;
+        padding: 0;
+        position: relative;
+        width: 100%
+      }
+
+      .modal_overlay .modal_container .modal.product .header {
+        align-items: flex-end;
+        display: flex;
+        height: 104px;
+        justify-content: center;
+        margin-bottom: 40px;
+        padding-bottom: 25px;
+        position: relative;
+        width: 100%
+      }
+
+      .modal_overlay .modal_container .modal.product .header .icon {
+        position: absolute;
+        top: -50px;
+        width: 100px
+      }
+
+      .modal_overlay .modal_container .modal.product .header .close {
+        cursor: pointer;
+        position: absolute;
+        right: 24px;
+        top: 24px
+      }
+
+      .modal_overlay .modal_container .modal.product .header .close img {
+        width: 16px
+      }
+
+      .modal_overlay .modal_container .modal.product .header .params {
+        align-items: center;
+        color: #fff;
+        display: flex;
+        font-size: 16px;
+        font-style: normal;
+        font-weight: 700;
+        justify-content: space-between;
+        line-height: 130%;
+        padding: 0 30px;
+        position: relative;
+        width: 100%
+      }
+
+      .modal_overlay .modal_container .modal.product .header .params .price {
+        text-align: right
+      }
+
+      .modal_overlay .modal_container .modal.product .header .params:after {
+        background: #fff;
+        border-radius: 4px;
+        bottom: -10px;
+        content: "";
+        height: 2px;
+        left: 30px;
+        opacity: .2;
+        position: absolute;
+        width: calc(100% - 60px)
+      }
+
+      .modal_overlay .modal_container .modal.product .content {
+        align-items: center;
+        display: flex;
+        flex-direction: column;
+        padding: 0 30px;
+        width: 100%
+      }
+
+      .modal_overlay .modal_container .modal.product .content .title {
+        color: #fff;
+        font-size: 20px;
+        font-style: normal;
+        font-weight: 700;
+        line-height: 130%;
+        margin-bottom: 10px;
+        text-align: center;
+        width: 100%
+      }
+
+      .modal_overlay .modal_container .modal.product .content .desc {
+        color: #fff;
+        font-size: 16px;
+        font-style: normal;
+        font-weight: 500;
+        height: 200px;
+        line-height: 20px;
+        margin-bottom: 40px;
+        max-height: 200px;
+        opacity: .5;
+        overflow-y: auto;
+        padding-right: 10px;
+        width: 100%
+      }
+
+      .modal_overlay .modal_container .modal.product .content .desc p {
+        margin-bottom: 10px
+      }
+
+      .modal_overlay .modal_container .modal.product .content .desc::-webkit-scrollbar {
+        width: 2px
+      }
+
+      .modal_overlay .modal_container .modal.product .content .desc ::-webkit-scrollbar-track {
+        background-color: none
+      }
+
+      .modal_overlay .modal_container .modal.product .content .desc::-webkit-scrollbar-thumb {
+        background: #ffae39
+      }
+
+      .modal_overlay .modal_container .modal.product .content .input_wrap {
+        display: flex;
+        flex-direction: column;
+        margin-bottom: 40px;
+        width: 100%
+      }
+
+      .modal_overlay .modal_container .modal.product .content .input_wrap label {
+        color: hsla(0, 0%, 100%, .45);
+        font-size: 14px;
+        font-style: normal;
+        font-weight: 500;
+        line-height: 20px;
+        margin-bottom: 8px
+      }
+
+      .modal_overlay .modal_container .modal.product .content .input_wrap input {
+        background: #221e1c;
+        border-radius: 12px;
+        box-shadow: 0 4px 29px rgba(0, 0, 0, .05);
+        color: #fff;
+        font-size: 16px;
+        font-style: normal;
+        font-weight: 500;
+        height: 50px;
+        line-height: 20px;
+        padding: 0 20px;
+        width: 100%
+      }
+
+      .modal_overlay .modal_container .modal.product .content .btn {
+        align-items: center;
+        background: #141414;
+        border-radius: 15px;
+        box-shadow: 0 5px 9px rgba(233, 231, 231, 0.41);
+        color: #fff;
+        cursor: pointer;
+        display: flex;
+        font-size: 16px;
+        font-style: normal;
+        font-weight: 700;
+        height: 59.59px;
+        justify-content: center;
+        line-height: 20px;
+        position: relative;
+        width: 223.83px
+      }
+
+      .modal_overlay .modal_container .modal.product .content .btn img {
+        position: absolute;
+        right: 25px;
+        transition: right .3s;
+        width: 20px
+      }
+
+      .modal_overlay .modal_container .modal.product .content .btn:hover {
+        box-shadow: 0 5px 10px rgba(235, 234, 233, 0.521)
+      }
+
+      .modal_overlay .modal_container .modal.product .content .btn:hover img {
+        right: 30px;
+        transition: right .3s
+      }
+
+      .modal_overlay .modal_container .modal.servers {
+        align-items: flex-start;
+        background: none;
+        box-shadow: none;
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        justify-content: center;
+        padding-top: 20px;
+        width: 100%
+      }
+
+      .modal_overlay .modal_container .modal.servers .header {
+        align-items: center;
+        display: flex;
+        justify-content: space-between;
+        margin-bottom: 50px;
+        width: 100%
+      }
+
+      .modal_overlay .modal_container .modal.servers .header .title {
+        color: #fff;
+        font-size: 22px;
+        font-style: normal;
+        font-weight: 700;
+        line-height: 130%
+      }
+
+      .modal_overlay .modal_container .modal.servers .header .close {
+        background: #fff;
+        border-radius: 5px;
+        color: #000;
+        cursor: pointer;
+        font-size: 12px;
+        font-style: normal;
+        font-weight: 700;
+        line-height: 130%;
+        padding: 10px 15px
+      }
+
+      .modal_overlay .modal_container .modal.servers .line {
+        margin: 0 60px;
+        max-width: 500px
+      }
+
+      .modal_overlay .modal_container .modal.servers .line .server_block {
+        margin: 0 0 40px
+      }
+
+
+
+      .terms_section {
+        margin-top: 110px;
+        position: relative
+
+      }
+
+      .terms_section .parallax {
+        position: absolute
+      }
+
+      .terms_section .parallax.one {
+        left: -42px;
+        position: absolute;
+        top: 0;
+        width: 340px
+      }
+
+      .terms_section .parallax.two {
+        bottom: -20px;
+        right: 48px;
+        width: 201px
+      }
+
+      .terms_section ._container {
+        padding-bottom: 170px;
+        padding-top: 90px
+      }
+
+      .terms_section h1 {
+        color: #fff;
+        font-size: 55px;
+        font-style: normal;
+        font-weight: 700;
+        line-height: 130%;
+        margin-bottom: 120px;
+        text-align: center;
+        width: 100%
+      }
+
+      .terms_section h3 {
+        color: #fff;
+        font-size: 24px
+      }
+
+      .terms_section h3,
+      .terms_section p {
+        font-style: normal;
+        font-weight: 500;
+        line-height: 160%;
+        margin-bottom: 38.4px
+      }
+
+      .terms_section p {
+        color: hsla(0, 0%, 100%, .45);
+        font-size: 18px
+      }
+
+      .terms_section span {
+        color: #fff
+      }
+
+      @media(max-width:1396px) {
+        ._container {
+          padding: 0 20px
+        }
+      }
+
+      @media(max-width:1366px) {
+        .social_section .social_block {
+          padding-left: 138px
+        }
+      }
+
+      @media(max-width:1280px) {
+        .start_section .picture {
+          bottom: 41px;
+          height: 651px
+        }
+
+        .social_section .social_block .icon {
+          left: -80px;
+          position: absolute;
+          transition: all .3s;
+          width: 160px;
+          z-index: 2
+        }
+
+        .social_section .social_block .title {
+          font-size: 28px;
+          margin-bottom: 0
+        }
+      }
+
+      @media(max-width:1024px) {
+
+
+        .start_section .picture {
+          bottom: 101px;
+          height: 551px
+        }
+
+        .social_section .list_social {
+          flex-direction: column
+        }
+
+        .social_section .list_social .social_block {
+          margin-bottom: 30px
+        }
+
+        .social_section {
+          padding-bottom: 39px
+        }
+
+        footer ._container .logo {
+          margin-right: 59px
+        }
+
+        footer ._container .project_info {
+          margin-right: 42px
+        }
+
+        .start_section ._container .monitoring_list {
+          left: 60%
+        }
+
+        .start_section ._container .monitoring_list:hover {
+          -webkit-backdrop-filter: blur(0);
+          backdrop-filter: blur(0);
+          left: 60%
+        }
+
+        .start_section ._container .monitoring_list .line.hide {
+          display: none
+        }
+
+        .start_section ._container .monitoring_list .btn_view_all {
+          margin-left: 0
+        }
+
+        .start_section ._container .monitoring_list .btn_view_all.disabled {
+          display: flex
+        }
+      }
+
+      @media(max-width:970px) {
+
+        footer ._container .logo {
+          align-items: center;
+          flex-direction: column
+        }
+
+        footer ._container .logo img {
+          margin-bottom: 15px;
+          margin-right: 0
+        }
+
+
+      }
+
+      @media(max-width:768px) {
+        .start_section .picture {
+          bottom: 101px;
+          height: 451px
+        }
+
+
+
+
+        .modal_overlay .modal_container .modal.servers .line {
+          margin: 0
+        }
+
+        header .logo {
+          font-size: 0
+        }
+
+        header .online {
+          max-width: 167px;
+          width: 100%
+        }
+
+        header .online .header {
+          align-items: center
+        }
+
+        header .online .header .counter,
+        header .online .header .counter b {
+          font-size: 14px
+        }
+
+        .start_section ._container .content {
+          max-width: 402px
+        }
+
+        .start_section ._container .content h1 {
+          font-size: 48px
+        }
+
+        .start_section ._container .content h3 {
+          font-size: 14px
+        }
+      }
+
+      @media(max-width:640px) {
+        .start_section .picture {
+          display: none
+        }
+
+
+        .mobile_btn {
+          align-items: flex-end;
+          background: #fff;
+          display: flex;
+          flex-direction: column;
+          height: 2px;
+          position: relative;
+          width: 25px;
+          z-index: 5
+        }
+
+        .mobile_btn:after,
+        .mobile_btn:before {
+          background: #fff;
+          content: "";
+          height: 2px;
+          position: absolute;
+          transition: width .4s;
+          width: 25px
+        }
+
+        .mobile_btn.active:before {
+          transition: width .4s;
+          width: 50%
+        }
+
+        .mobile_btn:after {
+          top: -8px
+        }
+
+        .mobile_btn:before {
+          bottom: -8px
+        }
+
+        header .nav {
+          margin: 0;
+          order: 3
+        }
+
+        header .logo img {
+          margin-right: 0
+        }
+
+        header .nav .nav_list {
+          align-items: center;
+          display: none;
+          flex-direction: column;
+          height: 100%;
+          justify-content: center;
+          left: 0;
+          position: fixed;
+          top: 0;
+          width: 100%;
+          z-index: 5
+        }
+
+        header .nav .nav_list,
+        header .nav .nav_list.active {
+          transition: -webkit-backdrop-filter 1s;
+          transition: backdrop-filter 1s;
+          transition: backdrop-filter 1s, -webkit-backdrop-filter 1s
+        }
+
+        header .nav .nav_list.active {
+          -webkit-backdrop-filter: blur(10px);
+          backdrop-filter: blur(10px);
+          display: flex
+        }
+
+        header .nav .nav_list li {
+          margin: 20px 0
+        }
+
+        .start_section ._container {
+          flex-direction: column
+        }
+
+        .start_section ._container .content {
+          align-items: center;
+          display: flex;
+          flex-direction: column;
+          max-width: 100%;
+          text-align: center;
+          width: 100%
+        }
+
+        .start_section ._container .content .actions {
+          width: 100%
+        }
+
+        .start_section ._container .monitoring_list {
+          align-items: center;
+          left: 0;
+          min-height: auto;
+          padding-bottom: 60px;
+          padding-top: 60px;
+          position: relative;
+          top: 0
+        }
+
+        .start_section ._container .monitoring_list .line .server_block {
+          display: none;
+          margin: 0
+        }
+
+        .start_section ._container .monitoring_list .line .server_block:first-child {
+          display: flex
+        }
+
+        .modal_overlay .modal_container .modal.servers {
+          align-items: center;
+          flex-direction: column
+        }
+
+        .social_section .social_block {
+          padding-left: 150px
+        }
+
+        .social_section .social_block .icon {
+          left: -100px;
+          width: 200px
+        }
+
+        footer ._container {
+          flex-wrap: wrap
+        }
+
+        footer ._container .footer_nav {
+          margin: 40px 0 0;
+          width: 50%
+        }
+      }
+
+
+
+      .nuxt-progress {
+        background-color: #000;
+        height: 2px;
+        left: 0;
+        opacity: 1;
+        position: fixed;
+        right: 0;
+        top: 0;
+        transition: width .1s, opacity .4s;
+        width: 0;
+        z-index: 999999
+      }
+
+      .nuxt-progress.nuxt-progress-notransition {
+        transition: none
+      }
+
+      .nuxt-progress-failed {
+        background-color: red
+      }
+      .nav_list a {
+       text-decoration: none;
+       color: inherit;
+      }
+    </style>
+  </head>
+  <body>
+    <div data-server-rendered="true" id="__nuxt">
+      <!---->
+      <div id="__layout">
+        <div>
+          <header>
+            <div class="_container">
+              <div class="logo nuxt-link-exact-active nuxt-link-active">
+                <img src="favicon.png" alt=""> <a href="/" style="text-decoration: none; color: inherit;">subtick6.wtf</a>
+              </div>
+              <div class="nav">
+                <ul class="nav_list">
+                  <li class="nuxt-link-exact-active nuxt-link-active active"><a href="/">Home</a></li>
+                  <li><a href="https://discord.gg/vc7AaCNrFv" target="_blank">Discord</a></li>
+                  <li><a href="https://discord.gg/vc7AaCNrFv">Appeal</a></li>
+                </ul>
+                <div class="mobile_btn"></div>
+              </div>
+              <div class="progress">
+                <div class="line" style="width:0%;"></div>
+              </div>
+            </div>
+          </header>
+          
+          <!---->
+          <div class="animate__animated animate__fadeIn" style="position:relative;">
+            <div class="start_section">
+              <div class="_container">
+                <div class="content">
+                  <h1>Welcome to subtick6.wtf!</h1>
+                  <h3> subtick6.wtf is a CS:GO HvH server dedicated to providing great experiences across the US and Europe. </h3>
+                  <div class="actions">
+                    <a href="steam://connect/45.90.12.229:25565" class="btn"> Quick Join <svg width="22" height="15" viewbox="0 0 22 15" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <g filter="url(#filter0_d_8_35)">
+                          <path d="M14.6 12L20 6.5M14.6 1L20 6.5M20 6.5H2" stroke="white" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"></path>
+                        </g>
+                        <defs>
+                          <filter id="filter0_d_8_35" x="0" y="0" width="22" height="15" filterunits="userSpaceOnUse" color-interpolation-filters="sRGB">
+                            <feflood flood-opacity="0" result="BackgroundImageFix"></feflood>
+                            <fecolormatrix in="SourceAlpha" type="matrix" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 127 0" result="hardAlpha"></fecolormatrix>
+                            <feoffset dy="1"></feoffset>
+                            <fegaussianblur stddeviation="0.5"></fegaussianblur>
+                            <fecomposite in2="hardAlpha" operator="out"></fecomposite>
+                            <fecolormatrix type="matrix" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0.25 0"></fecolormatrix>
+                            <feblend mode="normal" in2="BackgroundImageFix" result="effect1_dropShadow_8_35"></feblend>
+                            <feblend mode="normal" in="SourceGraphic" in2="effect1_dropShadow_8_35" result="shape"></feblend>
+                          </filter>
+                        </defs>
+                      </svg>
+                    </a>
+                    <div class="btn no_bg" onclick="copyIP()"> Copy IP <svg width="21" height="21" viewbox="0 0 21 21" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <path d="M12.0012 20.0012H2.00117C1.46524 20.0198 0.945642 19.8151 0.566457 19.4359C0.187272 19.0567 -0.0174554 18.5371 0.00116823 18.0012V8.00117C-0.0174554 7.46524 0.187272 6.94564 0.566457 6.56646C0.945642 6.18727 1.46524 5.98254 2.00117 6.00117H6.00117V2.00117C5.98254 1.46524 6.18727 0.945642 6.56646 0.566457C6.94564 0.187272 7.46524 -0.0174554 8.00117 0.00116823H18.0012C18.5371 -0.0174554 19.0567 0.187272 19.4359 0.566457C19.8151 0.945642 20.0198 1.46524 20.0012 2.00117V12.0012C20.0195 12.537 19.8147 13.0564 19.4355 13.4356C19.0564 13.8147 18.537 14.0195 18.0012 14.0012H14.0012V18.0012C14.0195 18.537 13.8147 19.0564 13.4356 19.4355C13.0564 19.8147 12.537 20.0195 12.0012 20.0012ZM2.00117 8.00117V18.0012H12.0012V14.0012H8.00117C7.46533 14.0195 6.9459 13.8147 6.56679 13.4356C6.18767 13.0564 5.98284 12.537 6.00117 12.0012V8.00117H2.00117ZM8.00117 2.00117V12.0012H18.0012V2.00117H8.00117Z" fill="white"></path>
+                      </svg>
+                    </div>
+                  </div>
+                  <script>
+                    function copyIP() {
+                      const ip = "45.90.12.229:25565";
+                      navigator.clipboard.writeText(ip).then(() => {
+                        console.log("copied")
+                      }).catch(err => {
+                        console.error("Failed to copy!", err);
+                      });
+                    }
+                  </script>
+                </div>
+
+              </div>
+            </div>
+            <div class="social_section">
+
+              <div class="_container">
+                <div class="title_section">Quick Links:</div>
+                <div class="list_social">
+                  <div class="social_block ds">
+                    <img src="discord.svg" alt class="icon">
+                    <div class="title">Discord</div>
+                    <div class="desc"> Here you can meet our community, find new friends and have fun </div>
+                    <a href="https://discord.gg/vc7AaCNrFv" class="link">Join</a>
+                  </div>
+                  <div class="social_block store">
+                    <img src="favicon.png" alt class="icon">
+                    <div class="title">Quick Join</div>
+                    <div class="desc"> Click below to quickly join a subtick6.wtf HvH Server </div>
+                    <a href="steam://connect/45.90.12.229:25565" class="link">View</a>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <footer>
+            <div class="_container">
+              <div class="logo nuxt-link-exact-active nuxt-link-active">
+                <img src="favicon.png" alt="">
+                <div class="info">
+                  <div class="name">subtick6.wtf</div>
+                  <div class="site">subtick6 holding</div>
+                </div>
+              </div>
+              <div class="project_info">
+                <div class="copy">Copyright © subtick6.wtf. All rights reserved.</div>
+
+              </div>
+              <div class="footer_nav">
+                <div class="name">Links</div>
+                <a href="/" aria-current="page" class="nuxt-link-exact-active nuxt-link-active">Home</a>
+                <a href="shop-sub/index">Store</a>
+                <a href="https://discord.gg/vc7AaCNrFv">Discord</a>
+              </div>
+              <div class="footer_nav">
+
+            </div>
+          </footer>
+        </div>
+      </div>
+    </div>
+    <script>
+      window.__NUXT__ = (function(a, b) {
+        return {
+          layout: "default",
+          data: [{}],
+          fetch: {},
+          error: a,
+          serverRendered: true,
+          routePath: b,
+          config: {
+            _app: {
+              basePath: b,
+              assetsPath: "\u002F_nuxt\u002F",
+              cdnURL: a
+            }
+          }
+        }
+      }(null, "\u002F"));
+    </script>
+
+
+  </body>
+</html>
